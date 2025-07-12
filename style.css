@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  width: 300px;
+  background: #f9f9f9;
+}
+
+
+h1 {
+  color: #2c3e50;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ecf0f1;
+  margin: 4px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+body.dark textarea {
+  background: #34495e;
+  color: white;
+  border: 1px solid #777;
+}
+#siteInput {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#openSiteBtn {
+  padding: 5px 10px;
+}
+#reminderList {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+#reminderList li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+#reminderList button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+
